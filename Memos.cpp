@@ -12,9 +12,11 @@
 class Memos {
   public:
     int length() const;
+    int size() const;
 };
 
-int Memos::length() const { return 0; }
+int Memos::length() const { return size(); }
+int Memos::size() const { return 0; }
 
 #include <iostream>
 
