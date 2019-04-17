@@ -24,6 +24,6 @@ int main() {
 
     {
         Memos m;
-        assert(m.length() == 0);
+        assert(m.size() == 0);
     }
 }
