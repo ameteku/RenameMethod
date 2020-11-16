@@ -16,7 +16,7 @@ class Memos {
     int length() const;
 };
 
-int Memos::size() const { return 0; }
+int Memos::size() const { return length(); }
 
 int Memos::length() const { return 0; }
 
