@@ -12,6 +12,8 @@
 class Memos {
   public:
     int size() const;
+
+    int length() const;
 };
 
 int Memos::size() const { return 0; }
