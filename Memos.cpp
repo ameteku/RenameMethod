@@ -18,6 +18,8 @@ class Memos {
 
 int Memos::size() const { return 0; }
 
+int Memos::length() const { return 0; }
+
 #include <cassert>
 #include <iostream>
 
